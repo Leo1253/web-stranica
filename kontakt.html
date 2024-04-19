@@ -1,3 +1,4 @@
+
 <html>
     <head>
             <title> Stranica o meni </title>
@@ -5,14 +6,59 @@
     </head>
 
     <body>
+        <form>
+            <h2>Unesi ime</h2>
+            <input type="text" name='ime' size='20' maxlength='18'></input>
+            <br></br>
+            <h2>Unesi prezime</h2>
+            <input type="text" name='prezime' size='20' maxlength='18'></input>
+            <br></br>
+            <h2>Unesi komentar</h2>
+            <textarea type="text" name='komentar' rows='10' cols='100'></textarea>
+            <br></br>
+            <p>Odaberi spol: &nbsp;
+            <input type="radio" name="spol" unchecked>musko</input>&nbsp;
+            <input type="radio" name="spol" unchecked>zensko</input>
+            </p>
+            <br></br>
+            <p> oznaci omiljene predmete:
+                <br></br>
+            <input type="checkbox" name="predmet1" unchecked>informatika</input>
+                <br></br>
+            <input type="checkbox" name="predmet2" unchecked>matematika</input>
+                <br></br>
+            <input type="checkbox" name="predmet3" unchecked>tjelesni</input>
+            </p>
+
+            <p>
+                <input type="reset" value="OBRISI" name="gumb1"></input>
+                <input type="submit" value="POSALJI" name="gumb2"></input>
+            </p>
+
+            <p>Najdrazi televizijski program
+                <select name="TV">
+                    <option value="vrijednost1">HRT1</option>
+                    <option value="vrijednost2">HRT2</option>
+                    <option value="vrijednost3">HRT3</option>
+                    <option value="vrijednost4">Nova TV</option>
+                    <option value="vrijednost5">RTL</option>
+
+
+                </select>
+
+            </p>
+
+        </form>
 
     </body>
 
     <h1> leo.dolenec@skole.hr</h1>
+    <br></br>
 
     <a href="index.html">Pocetna</a>
     <br>
     <a href="o_meni.html">Stranica o meni</a>
+    <br></br>
 
 
 
